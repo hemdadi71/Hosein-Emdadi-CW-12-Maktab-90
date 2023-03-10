@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+@font-face {
+  font-family: "lobster";
+  src: url(./assets/Fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url(./assets/Fonts/Comfortaa-VariableFont_wght.ttf);
+}
+/* .font-lobster {
+  font-family: 'Lobster';
+} */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
