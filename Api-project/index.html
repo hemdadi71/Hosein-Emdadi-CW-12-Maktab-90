@@ -16,8 +16,7 @@
             id="search"
             type="text"
             class="w-full bg-[#434242] outline-none text-white p-2 rounded-md placeholder:text-white pl-4"
-            placeholder="search a Country ...."
-          />
+            placeholder="search a Country ...." />
         </div>
       </div>
       <main class="font-Comfortaa flex gap-12 w-full my-16">
@@ -25,8 +24,7 @@
           <h2 class="text-white px-8 mx-auto">Countries</h2>
           <ul
             class="h-[350px] overflow-y-scroll flex flex-col gap-4 scrollbar-hide"
-            id="country-list"
-          >
+            id="country-list">
             <!-- <li
               class="bg-[#7F8487] rounded-r-md py-2 hover:shadow-sm hover:shadow-white flex gap-8 items-center justify-center cursor-pointer text-center"
             >
@@ -39,19 +37,22 @@
               </div>
             </li> -->
           </ul>
+          <div class="flex gap-2 justify-between px-5">
+            <button class="bg-red-300 p-3 rounded-md" id="Prev">Prev</button>
+            <button class="bg-green-300 p-3 rounded-md" id="sort">Sort</button>
+            <button class="bg-blue-300 p-3 rounded-md" id="Next">Next</button>
+          </div>
         </div>
         <div class="flex justify-center items-center w-3/4">
           <div
             id="card"
-            class="bg-[#DED3CA] bg-opacity-70 rounded-md relative flex flex-col px-3 py-4 text-center w-[60%]"
-          >
+            class="bg-[#DED3CA] bg-opacity-70 rounded-md relative flex flex-col px-3 py-4 text-center w-[60%]">
             <figure class="absolute top-[-50px] -translate-x-1/2 left-1/2">
               <img
                 class="rounded-full w-24 h-24"
                 src="./assets/img/Flag-United-States-of-America.webp"
                 alt=""
-                srcset=""
-              />
+                srcset="" />
             </figure>
             <div class="flex flex-col items-center justify-center py-16 gap-5">
               <div>
@@ -75,6 +76,7 @@
         </div>
       </main>
     </div>
+    <script type="module" src="/lodash.js"></script>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
